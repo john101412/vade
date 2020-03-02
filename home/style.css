@@ -1,7 +1,16 @@
+    /* define font */
+    
+    @font-face {
+        font-family: Shabnam;
+        src: url("../fonts/shabnam-font-v1/Shabnam-Bold.ttf");
+        src: url(../fonts/shabnam-font-v1/Shabnam-Bold.woff);
+    }
+    
     * {
         margin: 0;
         padding: 0;
         /* direction: rtl; */
+        font-family: Shabnam;
     }
     
     .center {
