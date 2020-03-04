@@ -242,7 +242,12 @@
         direction: rtl;
         display: flex;
         flex-direction: column;
+<<<<<<< HEAD
         width: 50%;
+=======
+        justify-content: center;
+        align-items: center;
+>>>>>>> add
     }
     
     #form input.item-in-form {
@@ -264,9 +269,10 @@
     }
     
     .btn-send-form {
-        background-color: cyan;
+        background-color: rgba(85, 57, 204, 1);
         color: white;
         text-align: center;
         cursor: pointer;
         border-radius: 10px;
+        width: 90%;
     }
