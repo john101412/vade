@@ -232,22 +232,20 @@
     }
     
     #container-message {
-        width: 70%;
+        padding-top: 30px;
+        /* width: 70%; */
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        flex-basis: 50%;
     }
     
     #form {
         direction: rtl;
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
-        width: 50%;
-=======
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
->>>>>>> add
     }
     
     #form input.item-in-form {
